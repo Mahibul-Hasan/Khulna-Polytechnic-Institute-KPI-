@@ -1,8 +1,7 @@
-
 <!DOCTYPE html>
   <html lang="en">
     <head>
-      <title>Login-Khulna Polytechnic Institute(KPI)</title>
+      <title>Signup-Khulna Polytechnic Institute(KPI)</title>
       <link rel="icon" href="images/icon.png" type="image/x-i">
       <link rel="stylesheet" href="css/style.css">
       <link
@@ -10,7 +9,6 @@
         rel="stylesheet">
     </head>
     <body>
-      
       <!---TOP-HEADER STARTS TOP-HEADER STARTS--->
       <div class="header">
         <div class="container">
@@ -20,33 +18,43 @@
       </div>
 
       <div class="container">
+        <!---LOGO SECTION ----->
+        <a href="index.html"><img src="images/logo.png" class="logo"></a>
+        <!----MENU SECTION----->
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="departments.html">Departments</a>
+          <a href="notice.html">Notice</a>
+          <a href="contact.html">Contact us</a>
+          <a href="form.html">Admission Form</a>
+          <a href="login.html">Login</a><img src="images/sign-in-alt.png">
+        </nav>
+      </div>
 
-      <!---LOGO SECTION ----->
-      <a href="index.html"><img src="images/logo.png" class="logo"></a>
-
-      <!----MENU SECTION----->
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="departments.html">Departments</a>
-        <a href="notice.html">Notice</a>
-        <a href="contact.html">Contact us</a>
-        <a href="form.html">Admission Form</a>
-        <a href="login.html">Login</a><img src="images/sign-in-alt.png">
-      </nav>
-    </div>
-
-    <!----LOGIN SECTION----->
-    <div class="login-box">
-      <h1>Login</h1>
+      <!----SIGNUP SECTION----->
+      <div class="signup-box">
+        <h1>Sign Up</h1>
+        <h4>It's free and only takes a minute</h4>
         <form>
+          <label>First Name</label>
+          <input type="text" placeholder="" />
+          <label>Last Name</label>
+          <input type="text" placeholder="" />
           <label>Email</label>
           <input type="email" placeholder="" />
           <label>Password</label>
           <input type="password" placeholder="" />
+          <label>Confirm Password</label>
+          <input type="password" placeholder="" />
           <input type="button" value="Submit" />
         </form>
-    </div>
-    <p class="para-2"> Not have an account? <a href="signup.html">Sign Up Here</a>
-    </p>
+        <p>By clicking the Sign Up button,you agree to our <br />
+        <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+        </p>
+        
+        <p class="para-2">Already have an account? <a href="login.html">Login here</a></p>
+      </div>
+      
+      
     </body>
   </html>
