@@ -266,6 +266,7 @@ nav a {
 	font-size: 16px;
 	color: red;
 	font-weight: 400;
+	text-align: left;
 }
 
 /****************GALLERY SECTION****************/
@@ -512,7 +513,6 @@ ul li {
     font-size: 18px;
 }
 * {
-    /* -webkit-box-sizing: border-box; */
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -529,4 +529,91 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 
 ul {
     list-style-type: disc;
+}
+
+/****************notice section end****************/
+
+/****************teacher heading section****************/
+.teacher-heading{
+	background-color: #6db700;
+	padding: 5px;
+	font-size: 22px !important;
+	text-align: center;
+	color: #fff !important;
+	margin-top: 0px !important;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+element.style {
+    margin-bottom: 10px;
+}
+
+.profile-details, .small-profile-details {
+    width: auto;
+    padding: 5px;
+    background: #ddd;
+    position: relative;
+	text-align: center;    
+	margin-top: 5px;    
+	padding: 5px;    
+	word-wrap: break-word;
+}
+
+table{
+	text-indent: initial;
+	width: 100%;
+	border-collapse: collapse;
+	overflow-x: scroll;
+	border-spacing: 0;
+	border-spacing: 2px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table tr td {
+    border: solid 2px #E9E9E9;
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+table td {
+    font-size: 16px;
+    text-align: left;
+}
+
+td, th {
+    padding: 0;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.cprofile-image {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+img {
+    border: none;
+	border: 0px;    
+	vertical-align: middle;
+
+}
+
+* {
+    font-size: 18px;
 }
