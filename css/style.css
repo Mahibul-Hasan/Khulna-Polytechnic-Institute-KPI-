@@ -303,6 +303,10 @@ nav a {
 	text-decoration: none;
 }
 
+iframe {
+    width: 100%;
+}
+
 
 
 /****************Login/Signup section****************/
@@ -533,7 +537,7 @@ ul {
 
 /****************notice section end****************/
 
-/****************teacher heading section****************/
+/****************teacher section****************/
 .teacher-heading{
 	background-color: #6db700;
 	padding: 5px;
@@ -616,4 +620,126 @@ img {
 
 * {
     font-size: 18px;
+}
+
+/****************form section****************/
+.form-heading{
+	background-color: #6db700;
+	padding: 5px;
+	font-size: 22px !important;
+	text-align: center;
+	color: #fff !important;
+	margin-top: 0px !important;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+element.style {
+    margin-bottom: 10px;
+}
+
+.error-noscript{
+	color: #990000;
+}
+
+.profile-details{
+	background: #ddd;
+    border: 0 none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    float: none;
+    font-size: 100%;
+    height: auto;
+    letter-spacing: normal;
+    list-style: none;
+    outline: none;
+    position: static;
+    text-decoration: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    width: auto;
+    visibility: visible;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+form {
+    display: block;
+    
+}
+
+.field-container{
+	padding: 10px 0;
+    clear: both;
+}
+
+.field-label{
+
+    font-weight: 700;
+    font-size: 16px;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.required-label{
+	color: #ff0000;
+    font-weight: 400;
+}
+
+.submit-container{
+	margin-left: -23;
+}
+
+.field_3s{
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.field_4s{
+	padding-left: 90px;
+	padding-right: 90px;
+}
+
+.field_5s{
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+.field_6s{
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: start;
+
+   
+}
+
+option{
+	text-align: start;
+}
+
+/****************contact section****************/
+.page-title{
+	background-color: #6db700;
+	padding: 5px;
+	font-size: 22px !important;
+	text-align: center;
+	color: #fff !important;
+	margin-top: 0px !important;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+element.style {
+    margin-bottom: 10px;
 }
